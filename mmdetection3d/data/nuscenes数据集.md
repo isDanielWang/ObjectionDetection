@@ -1,0 +1,12 @@
+- nuscenes数据集
+  - 相关连接
+    - 下载地址：https://www.nuscenes.org/download
+    - 论文：https://arxiv.org/pdf/1903.11027.pdf
+    - Tutorial: https://link.zhihu.com/?target=https%3A//colab.research.google.com/github/nutonomy/nuscenes-devkit/
+  - 数据集结构：
+    - <img src="/Users/shixiangwang/Library/Application Support/typora-user-images/image-20220613154140278.png" alt="image-20220613154140278" style="zoom:50%;" />
+  - 生成适用于3d检测的coco风格的.json文件
+    - 使用包下的tools create_data.py工具
+    - 处理后数据集结构：
+      - <img src="/Users/shixiangwang/Library/Application Support/typora-user-images/image-20220613154500613.png" alt="image-20220613154500613" style="zoom:50%;" />
+  - Reference: https://mmdetection3d.readthedocs.io/zh_CN/latest/datasets/nuscenes_det.html
